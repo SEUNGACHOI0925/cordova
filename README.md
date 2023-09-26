@@ -5,6 +5,8 @@
   <td>
     <a href="https://github.com/SEUNGACHOI0925/0912">0912 레포트 레파지토리로 이동</a>
   </td>
+  </tr>
+  <tr>
   <td>
     <a href="https://github.com/SEUNGACHOI0925/0919">0919 레포트 레파지토리로 이동</a>
   </td>
