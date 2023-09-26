@@ -1,5 +1,5 @@
 # 📗레포트 제출
-### 수업 레포트 제출용 repositorie 입니다
+ 수업 레포트 제출용 repositorie 입니다
 <table>
  <tr>
   <td>
