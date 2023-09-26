@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0; 
+    margin-left: 20%; 
+    margin-right: 30%;
+}
+/* header */
+#stu-pic{
+    filter: grayscale(100%);
+}
+
+.h_cm{
+    position: absolute;
+    top: 2rem; 
+    left: 80rem;
+    color: white;  
+}
+
+h3{
+    position: absolute;
+    top: 43rem; 
+    left: 43rem;
+    color: white;
+    font-size: 50px;
+}
+/*category*/
+nav{
+    display: flex;
+    margin : 3% 0 0 0;
+}
+.tag{   
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px solid gray;
+    border-radius: 5px 5px 0 0;
+}
+a{  text-decoration: none; color: gray;}
+
+/*본문*/
+.content{
+    border: 3px solid gray;
+    width:113%;
+}
+.section1{
+    padding: 5% 5% 0 5%;
+    font-size: 20px;
+}
+aside{
+    padding:  2% 0 5% 5% ;
+}
