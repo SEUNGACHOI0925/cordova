@@ -4,36 +4,34 @@ body{
     margin-left: 20%; 
     margin-right: 30%;
 }
+/* index */
 /* header */
 #stu-pic{
     filter: grayscale(100%);
+    width: 113%;
 }
 
-.h_cm{
-    position: absolute;
-    top: 2rem; 
-    left: 80rem;
-    color: white;  
-}
 
 h3{
     position: absolute;
-    top: 43rem; 
-    left: 43rem;
-    color: white;
-    font-size: 50px;
+    color: rgb(255, 255, 255);
+    top: 3%;
+    left: 35%;
+    right: 30%;
+    font-size: 23px;
 }
+
 /*category*/
 nav{
     display: flex;
-    margin : 3% 0 0 0;
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 40px;
 }
 .tag{   
-    font-size: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border: 3px solid gray;
-    border-radius: 5px 5px 0 0;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 a{  text-decoration: none; color: gray;}
 
@@ -41,6 +39,7 @@ a{  text-decoration: none; color: gray;}
 .content{
     border: 3px solid gray;
     width:113%;
+    margin-top: 10px;
 }
 .section1{
     padding: 5% 5% 0 5%;
@@ -49,3 +48,33 @@ a{  text-decoration: none; color: gray;}
 aside{
     padding:  2% 0 5% 5% ;
 }
+
+/* info */
+li{
+    list-style:none ;
+    margin-top: 5px;
+}
+ul{
+    margin-left: -40px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
