@@ -1,37 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="./lib/jquery.mobile-1.4.5.min.css">
-  <script src="./lib/jquery-1.11.1.min.js"></script>
-  <script src="./lib/jquery-1.11.1.min.js"></script>
-</head>
-<body>
-  <div data-role="index" id="indexpage" class="container">
-    <div class="center2">
-      <h2 class="box">PORTFOLIO</h2>
-    </div>
-    <div class="center">
-      <img class="img1" src="me.png" alt="사진" 
-      style="width: 400px;
-      height: 400px;
-      border-radius: 70%;
-      filter: grayscale(100);
-      margin-top: 3%;">
-    </div>
-    <a href="intro.html#intro"><h3 class="und1">INTRO</h3></a>
-    <a href="info.html#info"><h3 class="und2">INFO</h3></a>
-    <a href="project1.html#project1"><h3 class="und3">PROJECTS</h3></a>
 
-  </div>
-  <div data-role="info" id="infopage" data-add-back-btn="true">
-    <div class="menu">
-      <a href="intro.html#intro"><h4 class="und">INTRO</h4></a>
-      <a href="project1.html#project1"><H4 class="und">PROJECTS</H4></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="common.css" />
+  <link rel="stylesheet" href="./lib/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="./lib/jquery-1.11.1.min.js"></script>
+  <script src="./lib/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+  <!-- index -->
+  <div data-role="page" id="index">
+    <div class="container">
+      <div data-role="content">
+        <div class="center2">
+          <h2 class="box">PORTFOLIO</h2>
+        </div>
+        <div class="center">
+          <img class="img1" src="me.png" alt="사진" />
+        </div>
+        <div data-role="nav">
+          <h3 class="und1"><a href="#intro">INTRO</a></h3>
+          <h3 class="und2"><a href="#info">INFO</a></h3>
+          <h3 class="und3"> <a href="#project1">PROJECT01 </a></h3>
+        </div>
+      </div>
     </div>
-   
+  </div>
+
+  <!-- intro -->
+  <div data-role="page" id="intro">
+    <div data-role="nav" class="menu">
+      <h4 class="und"><a href="#info">INFO</a></h4>
+      <h4 class="und"> <a href="#project1">PROJECT01</a></h4>
+    </div>
+    <div class="container">
+      <div data-role="content">
+        <div class="border">
+          <img src="me.jpg" alt="" class="intro-img img1" />
+          <h4 class="intro">INTRO</h4>
+          <p class="content">
+            <b>부산경상대학교에 재학중인 최승아 입니다.<br /><br />
+              C#, JAVA, Javascript, PHP 등 다양한 프로그래밍 언어와 <br />
+              기술을 활용하여 다양한 프로젝트를 수행하며 실력을 쌓고
+              있습니다.<br />
+              현재는 Vue.js에 관심을 갖고 간단한 게시판을 만들어 보고
+              있습니다.<br /><br />
+              최근엔 프로그램을 개발하고 프로그래밍의 전반적인 과정을 경험해오며
+              <br />
+              소통과 협업의 중요성을 몸소 느끼게 되었습니다.<br />
+              개발 과정에서 주변의 다양한 의견을 수용하고 피드백을 통해 나만의
+              생각이 아닌<br />
+              다른이의 생각을 받아들이며 다양하고 폭넓은 생각을 해보게
+              됐습니다.<br />
+              미래에는 웹 개발 분야에서 깊이 있는 지식을 쌓아 나가고, 여러
+              사람들과 소통하며 <br />
+              사용자에게 유용한 프로그램을 개발하고 싶습니다.<br />
+              항상 겸손한 자세로 배우고, 주변의 지식과 경험을 존중하며 <br />성장해
+              나가는 개발자가 되기 위해 노력하겠습니다.
+            </b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFO -->
+  <div data-role="page" id="info">
+    <div data-role="nav" class="menu">
+      <h4 class="und"><a href="#intro">INTRO</a></h4>
+      <h4 class="und"><a href="#project1">PROJECT01</a></h4>
+    </div>
+    <div class="container">
+      <div data-role="content">
+        <div class="border">
+          <img src="me.jpg" alt="" class="intro-img img1 " />
+        </div>
+        <h4 class="info" id="info">INFO</h4>
+        <p class="content2">
+          이 름 : 최승아<br /><br />
+          주 소 : 부산광역시 북구<br /><br />
+          Tel. : 010-0000-0000<br /><br />
+          학 력 : 부산경상대학교 컴퓨터융합과 재학 중<br /><br />
+          자격증 : 업데이트 예정<br /><br />
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- project1 -->
+  <div data-role="page" id="project1">
+    <div class="title1">
+      <h2 id="project1">PROJECT01</h2>
+    </div>
+    <div data-role="nav" class="side">
+      <h4 class="unde"><a href="#intro">INTRO</a></h4>
+      <h4 class="unde"> <a href="#info">INFO</a></h4>
+      <h4 class="unde"> <a href="#project2">PROJECT02</a></h4>
+    </div>
+    <div class="projectcontainer">
+      <div data-role="content3">
+        <img  class="projectimg1" src="login.png" alt="" />
+        <img  class="projectimg" src="mainform.png" alt="" />
+        <img  class="projectimg" src="form1.png" alt="" />
+        <img  class="projectimg" src="form2.png" alt="" />
+        <img  class="projectimg" src="form7.png" alt="" />
+      </div>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        C# 인사관리프로그램</p>
+    </div>
+  </div>
+
+  <!-- project2 -->
+  <div data-role="page" id="project2">
+    <div class="title1">
+      <h2 id="project2">PROJECT02</h2>
+    </div>
+    <div data-role="nav" class="side">
+      <h4 class="unde"><a href="#intro">INTRO</a></h4>
+      <h4 class="unde"> <a href="#info">INFO</a></h4>
+      <h4 class="unde"> <a href="#project1">PROJECT01</a></h4>
+    </div>
+    <div class="projectcontainer2">
+      <div data-role="content">
+        <img class="projectimg" src="j1.png" alt="" />
+        <img  class="projectimg" src="j2.png" alt="" />
+        <img  class="projectimg" src="j3.png" alt="" />
+        <img  class="projectimg" src="j4.png" alt="" />
+        <img  class="projectimg" src="j5.png" alt="" />
+      </div>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        JAVA 회원관리프로그램</p>
+    </div>
   </div>
 </body>
+
 </html>
