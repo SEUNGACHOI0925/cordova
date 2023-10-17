@@ -1,8 +1,8 @@
 ## ⭐1010 레포트
-portfolio 작성 - id태그 책갈피 추가
+portfolio 작성 - 0926 레포트 - js와 id태그를 이용한 페이지 이동
 <a href="https://seungachoi0925.github.io/cordova/1010/index.html">포트폴리오</a>
 
-##### 기존 0926의 포트폴리오와 내용은 동일합니다. <br> (변경사항) id태그 추가로 페이지간 이동시 지정된 섹션으로 이동합니다
+##### 기존 0926의 포트폴리오와 내용은 동일합니다.
 
 ###### 1 portfolio 표지
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/4cb7b105-22b4-40a9-b106-1479fa9e80ed)
