@@ -1,4 +1,4 @@
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/621130db-cce1-40b1-bc3c-62ba9f70353d)
+
 ## ⭐1017 레포트
 학과 소개 웹사이트 제작
 <a href="https://seungachoi0925.github.io/cordova/1017/index.html">학과 소개 웹사이트</a>
