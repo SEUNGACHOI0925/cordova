@@ -1,21 +1,31 @@
-
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/621130db-cce1-40b1-bc3c-62ba9f70353d)
 ## ⭐1017 레포트
 학과 소개 웹사이트 제작
 <a href="https://seungachoi0925.github.io/cordova/1017/index.html">학과 소개 웹사이트</a>
 
 
-###### 1 portfolio 표지
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/4cb7b105-22b4-40a9-b106-1479fa9e80ed)
+###### 1 첫화면(목록)
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/31cfbd84-d352-4473-ba85-21701a8848a4) 웹화면
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/58aea9a1-143f-4119-a7cb-4bc95feca099)
+모바일화면
 
-###### 2 소개화면
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/f3ccd738-2242-48a3-9aba-d67c341d2ab1)
+###### 2 학과소개
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/ff1b7a57-697b-49ca-a050-9e5e36cf4433) 웹화면
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/6164f417-af9e-474e-8027-0fcd42c0fc87)
+모바일화면
 
-###### 3 개인정보(임시)
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/1f05cc79-30db-4985-83a6-cbbef31919c2)
+###### 3 전공소개
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/360110ef-e83a-4bbe-b937-a369d3f68b3a) 웹화면
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/2bd6baf2-2911-4016-9028-a32ac08beadb)
+모바일화면
 
-###### 4 프로젝트 내용1
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/c4c64243-49d8-4bd3-81ab-4ace533e4f49)
+###### 4 교육과정
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/d8463d8f-25fb-4617-906d-f6c578085bf1) 웹화면
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/9620ae27-5259-4d55-ae13-67feb064f86a)
+모바일화면
 
-###### 5 프로젝트 내용2
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/6c76d1b8-14b6-4027-af92-d1779f855d4d)
+###### 5 학과소개
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/e9a4a01c-4041-44f0-9469-67363b875b72) 웹화면
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/5f55a3b7-fe65-4423-9985-c33767bea67b)
+모바일화면
 
