@@ -28,7 +28,7 @@
  <tr>
   <td>5</td>
   <td>
-    <a href="https://seungachoi0925.github.io/cordova/1010/index.html">1017 report</a>
+    <a href="https://seungachoi0925.github.io/cordova/1017/index.html">1017 report</a>
   </td>
  </tr>
 </table>
