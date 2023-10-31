@@ -25,6 +25,12 @@
     <a href="https://seungachoi0925.github.io/cordova/1010/index.html">1010 report</a>
   </td>
  </tr>
+ <tr>
+  <td>5</td>
+  <td>
+    <a href="https://seungachoi0925.github.io/cordova/1010/index.html">1017 report</a>
+  </td>
+ </tr>
 </table>
 
  ###### 0912, 0919 레포트는 호스팅 문제로 레파지토리를 따로 생성 하였습니다. <br> 위 페이지로 이동시 페이지 확인이 가능합니다.😶‍🌫️
@@ -34,3 +40,4 @@
 -  0919 css 활용
 -  0926 기존 제공된 포트폴리오 수정 및 작성
 -  1010 0926 레포트 - js와 id태그를 이용한 페이지 이동
+-  1017 학과 소개 웹사이트 
