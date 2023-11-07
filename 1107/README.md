@@ -5,7 +5,7 @@
 
 
 ### 1 첫화면(목록)
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/31cfbd84-d352-4473-ba85-21701a8848a4 = 560*380) <br>웹화면<br>
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/31cfbd84-d352-4473-ba85-21701a8848a4 =300x) <br>웹화면<br>
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/58aea9a1-143f-4119-a7cb-4bc95feca099)
 <br>모바일화면<br>
 
