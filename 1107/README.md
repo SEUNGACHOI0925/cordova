@@ -1,7 +1,7 @@
 
 ## ⭐1107 레포트
 학과 소개 웹사이트 제작 - 학과사진 형식 변경(JS, JQUERY) <br>
-<a href="https://seungachoi0925.github.io/cordova/1017/index.html">웹사이트로 이동!</a>
+<a href="https://seungachoi0925.github.io/cordova/1107/index.html">웹사이트로 이동!</a>
 
 
 ### 1 첫화면(목록)
@@ -25,7 +25,8 @@
 <br>모바일화면<br>
 
 ### 5 학과소개
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/e9a4a01c-4041-44f0-9469-67363b875b72) 웹화면<br>
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/5f55a3b7-fe65-4423-9985-c33767bea67b)
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/bd1c921d-de2b-420a-9c75-938c36fdbcee)
+ 웹화면<br>
+![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/63f48b3c-6d28-4af7-a4d3-84dd7ec189bb)
 <br>모바일화면<br>
 
