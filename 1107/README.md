@@ -1,5 +1,5 @@
 
-## ⭐1107 레포트
+# ⭐1107 레포트
 - 학과 소개 웹사이트 제작 - 학과사진 형식 변경(JS, JQUERY) <br>
 <a href="https://seungachoi0925.github.io/cordova/1107/index.html">웹사이트</a> <br>
 - py script, bun script에 대한 간단한 설명
