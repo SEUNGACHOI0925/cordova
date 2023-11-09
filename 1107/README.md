@@ -25,7 +25,7 @@
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/9620ae27-5259-4d55-ae13-67feb064f86a)
 <br>모바일화면<br>
 
-### 5 학과소개
+### 5 학과소개(하위 사진 클릭시 메인이미지 변경)
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/bd1c921d-de2b-420a-9c75-938c36fdbcee)
  <br>웹화면<br>
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/63f48b3c-6d28-4af7-a4d3-84dd7ec189bb)
