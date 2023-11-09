@@ -3,7 +3,7 @@
 - 학과 소개 웹사이트 제작 - 학과사진 형식 변경(JS, JQUERY) <br>
 <a href="https://seungachoi0925.github.io/cordova/1107/index.html">웹사이트</a> <br>
 - py script, bun script에 대한 간단한 설명
-
+<br><br><br>
 ## 📑학과 소개 웹사이트 제작 - 학과사진 형식 변경(JS, JQUERY)
 ### 1 첫화면(목록)
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/31cfbd84-d352-4473-ba85-21701a8848a4) <br>웹화면<br>
@@ -30,7 +30,7 @@
  <br>웹화면<br>
 ![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/63f48b3c-6d28-4af7-a4d3-84dd7ec189bb)
 <br>모바일화면<br>
-
+<br><br><br>
 ## 📜 Py Script, bun script에 대한 간단한 설명
 ### Py Script
 
