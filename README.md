@@ -37,6 +37,12 @@
     <a href="https://seungachoi0925.github.io/cordova/1107/index.html">1107 report</a>
   </td>
  </tr>
+ <tr>
+  <td>7</td>
+  <td>
+    <a href="https://seungachoi0925.github.io/cordova/1114/1114.html">1114 report</a>
+  </td>
+ </tr>
 </table>
 
  ###### 0912, 0919 레포트는 호스팅 문제로 레파지토리를 따로 생성 하였습니다. <br> 위 페이지로 이동시 페이지 확인이 가능합니다.😶‍🌫️
@@ -48,3 +54,4 @@
 -  1010 0926 레포트 - js와 id태그를 이용한 페이지 이동
 -  1017 학과 소개 웹사이트
 -  1107 학과 소개 웹사이트 - 학과사진 형식 변경(JS, JQUERY)
+-  1114 OPEN API, JQUERY 사용하여 기업페이지 생성
