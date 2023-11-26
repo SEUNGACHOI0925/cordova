@@ -1,9 +1,10 @@
 <!-- info.xml -->
-<collapsible title="목록" scriptSrc="./1114.js">
-    <![CDATA[
-        <img src="a.png" alt="" style="width: 375px; margin-bottom: -2px;"/>
-        <img src="b.png" alt="" style="width: 375px;"/>
-        <img src="c.png" alt="" style="width: 375px;"/>
-        <img src="d.png" alt="" style="width: 375px;"/>
-    ]]>
-</collapsible>
+<?xml version="1.0" encoding="utf-8"?>
+<stuinfo>
+    <gradepoint>
+        <img src="./a.png" alt="" style="width: 375px; margin-bottom: -2px;"/>
+        <img src="./b.png" alt="" style="width: 375px;"/>
+        <img src="./c.png" alt="" style="width: 375px;"/>
+        <img src="./d.png" alt="" style="width: 375px;"/>
+    </gradepoint>
+</stuinfo>
