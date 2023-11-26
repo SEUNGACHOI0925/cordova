@@ -5,9 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>jQuery Mobile</title>
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="./lib/jquery.mobile-1.4.5.min.css" />
+    <script src="./lib/jquery-1.11.1.min.js"></script>
+    <script src="./lib/jquery.mobile-1.4.5.min.js"></script>
+	<script src="ajax-xml.js"></script>
+    <!-- <script>var nJquery = $.noConflict();</script> -->
 
     <style>
         li {
@@ -44,9 +46,10 @@
                     <img src="hi.gif" style="width: 100px; margin: 2.5rem 0 2.5rem 0;">
                     <br><br>
                 </div>
-                <div data-role="collapsible-set" data-content-theme="e" id="introCollapsibleSet">
-                    <!-- intro.xml의 내용이 여기에 들어가도록 자동으로 생성됩니다. -->
-                </div>
+                <button data-role="collapsible-set" data-content-theme="e" id="btnLoad1">정보</button>
+                    <ul data-role="listview" id="listArea" data-inset="true">
+                        <li id="item">데이터 로드 하기 전 . . .</li>
+                    </ul>
             </div>
         </div>
 
@@ -55,77 +58,17 @@
                 <a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
                 <h1><b>Google제품소개</b></h1>
             </div>
-            <div style="text-align:center">
-                <img src="info.gif" style="width: 100px; margin: 2.5rem 0 2.5rem 0;">
-                <br><br>
-            </div>
-            <div data-role="collapsible-set" data-content-theme="e" id="infoCollapsibleSet">
-                <!-- info.xml의 내용이 여기에 들어가도록 자동으로 생성됩니다. -->
+            <div data-role="content">
+                <div style="text-align:center">
+                    <img src="info.gif" style="width: 100px; margin: 2.5rem 0 2.5rem 0;">
+                    <br><br>
+                </div>
+                <button data-role="collapsible-set" data-content-theme="e" id="btnLoad2">제품소개</button>
+                    <ul data-role="listview" id="listArea2" data-inset="true">
+                        <li id="item">데이터 로드 하기 전 . . .</li>
+                    </ul>
             </div>
         </div>
     </div>
-    <!-- jQuery 라이브러리 로드 -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-<script type="text/javascript">
-    // XML 파일을 읽어오는 함수
-    function loadXML(url, targetId) {
-        $.ajax({
-            type: "GET",
-            url: url,
-            dataType: "xml",
-            success: function (xml) {
-                parseXML(xml, targetId);
-            },
-            error: function (xhr, status, error) {
-                console.error("Failed to load XML: " + status + " - " + error);
-            }
-        });
-    }
-
-    function parseXML(xml, targetId) {
-        var xmlDoc = xml;
-        var data = xmlDoc.getElementsByTagName("collapsible");
-
-        var collapsibleSet = document.getElementById(targetId);
-
-        for (var i = 0; i < data.length; i++) {
-            var title = data[i].getAttribute("title");
-            var scriptSrc = data[i].getAttribute("scriptSrc");
-            var preContent = data[i].getAttribute("preContent");
-
-            console.log("제목:", title);
-            console.log("스크립트 소스:", scriptSrc);
-            console.log("사전 콘텐츠:", preContent);
-
-            var collapsible = document.createElement("div");
-            collapsible.setAttribute("data-role", "collapsible");
-            var innerHTML = '<h3>' + title + '</h3>';
-
-            if (scriptSrc) {
-                innerHTML += '<script async src="' + scriptSrc + '"><\/script>';
-            } else if (preContent) {
-                innerHTML += '<p>' + preContent + '</p>';
-            }
-
-            collapsible.innerHTML = innerHTML;
-            collapsibleSet.appendChild(collapsible);
-        }
-
-        // 동적으로 생성된 콜랩서블 세트를 jQuery mobile이 초기화할 수 있도록 호출
-        $(collapsibleSet).collapsibleset().trigger("create");
-    }
-
-    // XML을 로드하는 함수 호출
-    loadXML("intro.xml", "introCollapsibleSet");
-    loadXML("info.xml", "infoCollapsibleSet");
-
-    $(document).ready(function () {
-        // 페이지 로드 시 collapsibleset 초기화
-        $("[data-role=collapsible-set]").collapsibleset().trigger("create");
-    });
-</script>
-
 </body>
-
 </html>
