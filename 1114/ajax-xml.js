@@ -21,7 +21,6 @@ $(document).ready(function () {
     });
 
     $('#btnLoad2').click(function () {
-        alert("클릭");
         $.ajax({
             url: 'info.xml',
             type: 'get',
