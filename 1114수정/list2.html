@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Document</title>
+	<!-- 제이쿼리 모바일, 제이쿼리 라이브러리 파일 선언 -->
+	<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/> -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<!-- 사용자 정의 자바스크립트 파일 선언 -->
+	<script src="ajax-xml.js"></script>
+	<script src="ajax-json.js"></script> 
+	<script src="ajax-html.js"></script> 
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+	
+	<div data-role="page">
+		<div data-role="header" data-position="fixed" style="text-align: center;">
+			<img src="googlelogo.png" alt="" style="width:250px; ">
+			
+		</div>
+		<div data-role="content">	
+			<button id="btnLoad1" data-inline-block="true" class="btnli2">Google 약속</button>
+			<ul data-role="listview" id="listArea" data-inset="true" style="list-style: none;">
+				<li id="item" style="white-space: pre-line; list-style: none;"> </li>
+			</ul>
+				
+		</div>	
+	</div>
+</body>
+</html>

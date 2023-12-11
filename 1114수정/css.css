@@ -1,0 +1,15 @@
+.c1{color: rgb(62, 129, 253)}
+.c2{color: rgb(255, 33, 33) }
+.c3{color: rgb(1, 167, 1) }
+.c4{color: rgb(253, 217, 13) }
+.main, .header{text-align: center; margin: 4rem;}
+.header{font-size: 15px;}
+p{ font-size: 20PX;}
+.list2{border: none; padding: 15px 50px;
+     margin-top: 10px; background-color: rgb(55, 74, 250);
+      border-radius: 5px; color: white; text-decoration: none;}
+.p2{font-size: 30px;}
+.btn2{margin-left: 10px; margin-right: 10px; font-size: 10px;}
+.btnli2{margin-left: 8.8rem;border: none; padding: 15px 50px;
+      margin-top: 10px; background-color: rgb(55, 74, 250);
+       border-radius: 5px; color: white; text-decoration: none;}

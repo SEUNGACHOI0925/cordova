@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="579469114892-r5j8beagb3trbp6q1vuvp44ep3t3i505.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body>
+
+    <div data-role="content" class="collapsible-set" style="text-align:center">
+        
+        <br> <br> <br> <br> 
+        <img src="googlelogo.png" style="width: 250px; ">
+        <script async src="https://cse.google.com/cse.js?cx=f7021def23f9b49e7"
+           ></script>
+        <div class="gcse-search"></div>
+    <div class="mainbtn">
+        <br>  
+        <a class="btn2" href="list1.html">정보</a>
+        &nbsp;<a class="btn2" href="list2.html">약속</a><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark" style="margin-left: 8.5rem;"></div>
+    </div>
+    </div>
+    <script>
+        function onSignIn(googleUser){
+            var profile = googleUser.getBasicProfile();
+            console.log("ID: " + profile.getId());
+            console.log("Full Nam: " +profile.getName() );
+            console.log("Given Name: " + profile.getGivenName());
+            console.log("Family Name: " + profile.getFamilyName());
+            console.log("Image URL: "+ profile.getImageUrl());
+            console.log("Email: " + profile.getEmil());
+    
+            var id_token = googleUser.getAuthResponse().id_token;
+            console.log("ID Token: " + id_token);
+        }
+       </script>
+</body>
+</html>
