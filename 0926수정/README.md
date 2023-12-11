@@ -10,16 +10,18 @@ portfolio 작성
 - 프로젝트 내용2
   
 ###### 1 portfolio 표지
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/4cb7b105-22b4-40a9-b106-1479fa9e80ed)
+![스크린샷 2023-12-12 064913](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/2e0a53c7-f6f3-4106-9548-6564da4437eb)
+
 
 ###### 2 소개화면
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/f3ccd738-2242-48a3-9aba-d67c341d2ab1)
+![스크린샷 2023-12-12 065302](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/17bb084e-0782-46b4-a311-bed39633ddaf)
 
-###### 3 개인정보(임시)
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/1f05cc79-30db-4985-83a6-cbbef31919c2)
 
-###### 4 프로젝트 내용1
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/c4c64243-49d8-4bd3-81ab-4ace533e4f49)
+###### 3 인적
+![스크린샷 2023-12-12 065323](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/a7104897-5ec6-4307-b1d7-60e3de8b327f)
 
-###### 5 프로젝트 내용2
-![image](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/6c76d1b8-14b6-4027-af92-d1779f855d4d)
+
+###### 4 프로젝트 내용
+
+![스크린샷 2023-12-12 065347](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/bbf3880a-5b19-4654-8ae5-15107d9d84a5)
+
