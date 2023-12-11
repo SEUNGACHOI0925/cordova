@@ -40,13 +40,7 @@
  <tr>
   <td>7</td>
   <td>
-    <a href="https://seungachoi0925.github.io/cordova/1114/1114.html">1114 report</a>
-  </td>
- </tr>
- <tr>
-  <td>7</td>
-  <td>
-    <a href="https://seungachoi0925.github.io/cordova/1114수정/1114.html">1114 report</a>
+    <a href="https://seungachoi0925.github.io/cordova/1114수정/1114.html">1114 report 수정</a>
   </td>
  </tr>
 </table>
