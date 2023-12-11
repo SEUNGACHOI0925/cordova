@@ -5,9 +5,8 @@ portfolio 작성
 #### 📗목차
 - portfolio 표지
 - 소개화면
-- 개인정보(임시)
-- 프로젝트 내용1
-- 프로젝트 내용2
+- 인적
+- 프로젝트 내용
   
 ###### 1 portfolio 표지
 ![스크린샷 2023-12-12 064913](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/2e0a53c7-f6f3-4106-9548-6564da4437eb)
