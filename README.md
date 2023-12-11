@@ -22,7 +22,7 @@
   <tr>
   <td>4</td>
   <td>
-    <a href="https://seungachoi0925.github.io/cordova/1010/index.html">1010 report</a>
+    <a href="https://seungachoi0925.github.io/cordova/1010수정/index.html">1010 report</a>
   </td>
  </tr>
  <tr>
