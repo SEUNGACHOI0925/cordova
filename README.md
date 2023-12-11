@@ -16,7 +16,7 @@
  <tr>
   <td>3</td>
   <td>
-    <a href="https://seungachoi0925.github.io/cordova/0926/index.html">0926 report</a>
+    <a href="https://seungachoi0925.github.io/cordova/1010수정/index.html">0926 report</a>
   </td>
  </tr>
   <tr>
