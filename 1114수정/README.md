@@ -7,11 +7,13 @@
 ![스크린샷 2023-12-12 031753](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/a635b0bc-1954-43a4-8f99-f3392d364a14)<BR>
  <BR>
 - 상세화면1 - XML불러와서 내용 첨부<BR>
-![스크린샷 2023-12-12 024037](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/370d11df-24ff-48bb-a505-687028e7233c)<BR>
+![스크린샷 2023-12-12 024037]
+(https://github.com/SEUNGACHOI0925/cordova/assets/112832677/370d11df-24ff-48bb-a505-687028e7233c)<BR>
 <BR>
 - 상세화면2<BR>
 1.기업소개 <BR>  ![스크린샷 2023-12-12 021620](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/623e7af5-09d8-4668-9c94-40e6a50f2033)
-![스크린샷 2023-12-12 021640](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/2c9f59c2-dc68-44ed-93c5-cb9942b976b7)<BR>
+![스크린샷 2023-12-12 021640]
+(https://github.com/SEUNGACHOI0925/cordova/assets/112832677/2c9f59c2-dc68-44ed-93c5-cb9942b976b7)<BR>
 2.지도 API <BR> ![스크린샷 2023-12-12 021330](https://github.com/SEUNGACHOI0925/cordova/assets/112832677/d09aeb5b-7407-4cbb-87df-7a2a42f215b4)
 <BR>
 
